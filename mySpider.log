@@ -1,0 +1,208 @@
+2017-11-21 22:44:06 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: ssiluke)
+2017-11-21 22:44:06 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'ssiluke', 'CONCURRENT_REQUESTS': 32, 'DOWNLOAD_DELAY': 1, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'siluke.spiders', 'RETRY_HTTP_CODES': [443, 8118, 808, 53281, 8123, 8888, 80, 500, 503, 504, 400, 403, 404, 408], 'RETRY_TIMES': 10, 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['siluke.spiders']}
+2017-11-21 22:44:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-21 22:44:06 [ssiluke] INFO: Reading start URLs from redis key 'ssiluke:start_urls' (batch size: 32, encoding: utf-8
+2017-11-21 22:44:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy_proxies.RandomProxy',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'siluke.middlewares.SilukeSpiderMiddleware',
+ 'siluke.middlewares.RandomUserAgentMiddlware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-21 22:44:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-21 22:44:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['siluke.pipelines.SilukePipeline', 'scrapy_redis.pipelines.RedisPipeline']
+2017-11-21 22:44:08 [scrapy.core.engine] INFO: Spider opened
+2017-11-21 22:44:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-21 22:44:09 [ssiluke] INFO: Spider opened: ssiluke
+2017-11-21 22:44:34 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: ssiluke)
+2017-11-21 22:44:34 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'ssiluke', 'CONCURRENT_REQUESTS': 32, 'DOWNLOAD_DELAY': 1, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'siluke.spiders', 'RETRY_HTTP_CODES': [443, 8118, 808, 53281, 8123, 8888, 80, 500, 503, 504, 400, 403, 404, 408], 'RETRY_TIMES': 10, 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['siluke.spiders']}
+2017-11-21 22:44:35 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-21 22:44:35 [ssiluke] INFO: Reading start URLs from redis key 'ssiluke:start_urls' (batch size: 32, encoding: utf-8
+2017-11-21 22:44:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy_proxies.RandomProxy',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'siluke.middlewares.SilukeSpiderMiddleware',
+ 'siluke.middlewares.RandomUserAgentMiddlware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-21 22:44:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-21 22:44:36 [scrapy.middleware] INFO: Enabled item pipelines:
+['siluke.pipelines.SilukePipeline', 'scrapy_redis.pipelines.RedisPipeline']
+2017-11-21 22:44:36 [scrapy.core.engine] INFO: Spider opened
+2017-11-21 22:44:42 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: ssiluke)
+2017-11-21 22:44:42 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'ssiluke', 'CONCURRENT_REQUESTS': 32, 'DOWNLOAD_DELAY': 1, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'siluke.spiders', 'RETRY_HTTP_CODES': [443, 8118, 808, 53281, 8123, 8888, 80, 500, 503, 504, 400, 403, 404, 408], 'RETRY_TIMES': 10, 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['siluke.spiders']}
+2017-11-21 22:44:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-21 22:44:42 [ssiluke] INFO: Reading start URLs from redis key 'ssiluke:start_urls' (batch size: 32, encoding: utf-8
+2017-11-21 22:44:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy_proxies.RandomProxy',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'siluke.middlewares.SilukeSpiderMiddleware',
+ 'siluke.middlewares.RandomUserAgentMiddlware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-21 22:44:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-21 22:44:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['siluke.pipelines.SilukePipeline', 'scrapy_redis.pipelines.RedisPipeline']
+2017-11-21 22:44:44 [scrapy.core.engine] INFO: Spider opened
+2017-11-21 22:45:46 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-11-21 22:45:46 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 174, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "G:\python-3.6.3\lib\site-packages\redis\_compat.py", line 79, in recv
+    return sock.recv(*args, **kwargs)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\redis\client.py", line 668, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "G:\python-3.6.3\lib\site-packages\redis\client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 624, in read_response
+    response = self._parser.read_response()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 284, in read_response
+    response = self._buffer.readline()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 216, in readline
+    self._read_from_socket()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 187, in _read_from_socket
+    raise TimeoutError("Timeout reading from socket")
+redis.exceptions.TimeoutError: Timeout reading from socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 174, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "G:\python-3.6.3\lib\site-packages\redis\_compat.py", line 79, in recv
+    return sock.recv(*args, **kwargs)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "G:\python-3.6.3\lib\site-packages\scrapy\crawler.py", line 79, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+redis.exceptions.TimeoutError: Timeout reading from socket
+2017-11-21 22:46:43 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: ssiluke)
+2017-11-21 22:46:43 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'ssiluke', 'CONCURRENT_REQUESTS': 32, 'DOWNLOAD_DELAY': 1, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'siluke.spiders', 'RETRY_HTTP_CODES': [443, 8118, 808, 53281, 8123, 8888, 80, 500, 503, 504, 400, 403, 404, 408], 'RETRY_TIMES': 10, 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['siluke.spiders']}
+2017-11-21 22:46:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-21 22:46:43 [ssiluke] INFO: Reading start URLs from redis key 'ssiluke:start_urls' (batch size: 32, encoding: utf-8
+2017-11-21 22:46:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy_proxies.RandomProxy',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'siluke.middlewares.SilukeSpiderMiddleware',
+ 'siluke.middlewares.RandomUserAgentMiddlware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-21 22:46:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-21 22:46:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy_redis.pipelines.RedisPipeline', 'siluke.pipelines.SilukePipeline']
+2017-11-21 22:46:44 [scrapy.core.engine] INFO: Spider opened
+2017-11-21 22:47:46 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-11-21 22:47:46 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 174, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "G:\python-3.6.3\lib\site-packages\redis\_compat.py", line 79, in recv
+    return sock.recv(*args, **kwargs)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\redis\client.py", line 668, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "G:\python-3.6.3\lib\site-packages\redis\client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 624, in read_response
+    response = self._parser.read_response()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 284, in read_response
+    response = self._buffer.readline()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 216, in readline
+    self._read_from_socket()
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 187, in _read_from_socket
+    raise TimeoutError("Timeout reading from socket")
+redis.exceptions.TimeoutError: Timeout reading from socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\redis\connection.py", line 174, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "G:\python-3.6.3\lib\site-packages\redis\_compat.py", line 79, in recv
+    return sock.recv(*args, **kwargs)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\python-3.6.3\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "G:\python-3.6.3\lib\site-packages\scrapy\crawler.py", line 79, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+redis.exceptions.TimeoutError: Timeout reading from socket
